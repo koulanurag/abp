@@ -4,7 +4,7 @@ Adaptation Based Programming
 ## Installation
 ```bash
    cd abp
-   pip3 install -r requirement.txt
+   pip3 install -r requirements.txt
    python setup.py install
 ```
 
@@ -31,7 +31,7 @@ Adaptation Based Programming
     |--test-episodes TEST_EPISODES| Set the number of test episodes|
     |--decay-steps DECAY_STEPS | Set the decay rate for exploration|
 
-    Minimal Example:
+* Minimal Example:
     ```bash
     python -m abp.trainer.task_runner -f tasks/fruit_collection/hra/v1 -t abp.examples.open_ai.fruit_collection.hra -r
     ```
